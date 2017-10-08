@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/titledisplay6"
+    tools:context="com.example.irc.los.Title">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/scorpion"
+        android:id="@+id/scorpion1"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/snake"
+        android:id="@+id/snake"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/scorpion"
+        android:id="@+id/scorpion2"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/scorpion"
+        android:id="@+id/scorpion3"/>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:background="@drawable/title3"
+        android:layout_marginTop="68dp"
+        android:id="@+id/view2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:visibility="gone"
+        android:layout_width="244dp"
+        android:layout_height="31dp"
+        android:background="@drawable/title2"
+        android:layout_marginTop="24dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:visibility="gone"
+        android:layout_width="258dp"
+        android:layout_height="37dp"
+        android:background="@drawable/title"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="256dp"
+        android:layout_height="128dp"
+        android:background="@drawable/start_button"
+        android:onClick="start"
+        android:id="@+id/startButton"
+        android:layout_marginBottom="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

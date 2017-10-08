@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="#000">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="#000"
+            android:paddingTop="20dp"
+            android:text="難易度を選んでください"
+            android:textColor="#fff"
+            android:textSize="@dimen/title_text" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/kantan"
+
+            android:onClick="onClick_kantan"
+            android:id="@+id/easy"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="かんたん"
+                android:textColor="#fff"
+                android:textSize="@dimen/children_top_text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="初めての方向け"
+                    android:textColor="#fff"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/hutuu"
+            android:onClick="onClick_hutuu"
+            android:id="@+id/normal"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ふつう"
+                android:textColor="#fff"
+                android:textSize="@dimen/children_top_text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="楽しみたい方向け"
+                    android:textColor="#fff"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/muzukasii"
+            android:onClick="onClick_muzukasii"
+            android:id="@+id/hard"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:paddingStart="25dp"
+            android:paddingEnd="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="むずかしい"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/children_top_text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="もの足りない方向け"
+                    android:textColor="#fff"
+                    android:textSize="26sp"
+                    android:gravity="center"
+                    android:textAlignment="gravity"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

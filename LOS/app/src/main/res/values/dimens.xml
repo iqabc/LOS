@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="hirotab">310dp</dimen>
+    <dimen name="hirotab2">80dp</dimen>
+    <dimen name="title_text">25sp</dimen>
+    <dimen name="title_height">60dp</dimen>
+    <dimen name="children_top_text">30sp</dimen>
+</resources>
